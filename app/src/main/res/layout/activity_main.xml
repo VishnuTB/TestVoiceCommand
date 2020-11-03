@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.agrima.voicecommandtest.ui.activities.MainActivity">
+
+    <GridLayout
+        android:id="@+id/tileGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:columnOrderPreserved="true"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/view1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView1"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView2"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView3"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="3" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView4"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="4" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView5"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="5" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view6"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView6"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="6" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView7"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="7" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView8"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="8" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view9"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView9"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="9" />
+
+        </FrameLayout>
+
+    </GridLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewAction"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_action" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonTrigger"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_listen"
+        android:textAllCaps="false" />
+
+</LinearLayout>

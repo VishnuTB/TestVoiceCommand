@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Souzen Test</string>
+    <string name="text_listen">Listen</string>
+    <string name="text_stop_listening">Stop Listening</string>
+    <string name="text_action">Action</string>
+</resources>
